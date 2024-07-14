@@ -18,7 +18,7 @@ const MainContent = () => {
     const { instance } = useMsal();
     const activeAccount = instance.getActiveAccount();
 
-    console.log(`What the hell !`)
+    console.log(`What the hell------------- !`)
 
     /**
      * Most applications will need to conditionally render certain components based on whether a user is signed in or not.
