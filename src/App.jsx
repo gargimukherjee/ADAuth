@@ -18,6 +18,8 @@ const MainContent = () => {
     const { instance } = useMsal();
     const activeAccount = instance.getActiveAccount();
 
+    console.log(`What the hell !`)
+
     /**
      * Most applications will need to conditionally render certain components based on whether a user is signed in or not.
      * msal-react provides 2 easy ways to do this. AuthenticatedTemplate and UnauthenticatedTemplate components will
