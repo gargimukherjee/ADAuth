@@ -6,7 +6,7 @@ import { InteractionStatus } from "@azure/msal-browser"
 
 
 function App() {
-  console.log(`This the app`)
+  console.log(`This the app-----`)
 
   const { instance, inProgress, accounts } = useMsal();
   const isAuthenticated = useIsAuthenticated();
